@@ -25,3 +25,4 @@ Firebase RealtimeDatabase: https://firebase.google.com/
 ## Uppstart av applikationen
 
 Applikationen kan startas genom att köra med Vite eller genom länken från Netlify:
+https://goodreads-tatiana-uzan.netlify.app/
