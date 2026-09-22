@@ -1,0 +1,149 @@
+img {
+  height: 200px;
+  width: 186px;
+}
+
+.hidden {
+  display: none;
+}
+
+.read {
+  background-color: rgba(126, 80, 210, 0.595);
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+  font-size: 40px;
+}
+#bookContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#bookForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+#bookForm button {
+  font-size: 18px;
+  height: 35px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+#titleLabel {
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 25px;
+}
+
+#authorLabel {
+  padding: 5px;
+  font-size: 20px;
+}
+
+#addBook {
+  margin-top: 10px;
+}
+button {
+  margin: 5px;
+  cursor: pointer;
+  background-color: rgba(18, 29, 236, 0.538);
+  border-radius: 5px;
+  border: 1px solid rgb(43, 137, 226);
+  box-shadow: 1px 1px rgba(222, 218, 239, 0.715);
+  color: white;
+  transition: 0.2s;
+}
+button:hover {
+  background-color: rgba(50, 0, 232, 0.704);
+  transform: translate(0, -1px);
+}
+
+.bookCardDiv {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 220px;
+  height: 400px;
+  border: 2px solid rgba(53, 233, 246, 0.323);
+}
+
+.bookCardDiv:hover {
+  box-shadow: 2px 2px 2px 2px plum;
+  transform: translate(0, -3px);
+}
+
+
+.delBtn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 29px;
+  width: 29px;
+}
+
+.readingStatusBtn {
+  height: 30px;
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+input {
+  border-radius: 10px;
+}
+
+input:hover {
+  background-color: rgba(170, 5, 203, 0.248);
+  transition: 0.3s;
+  color: white;
+}
+
+body {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/library.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: rgb(234, 244, 243);
+  font-weight: 900;
+  text-shadow: 0 2px 2px #000;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bookAuthorP {
+  font-size: 18px;
+  margin-top: 0px;
+  font-weight: lighter;
+}
+
+#bookForm input {
+  width: 300px;
+  height: 35px;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: rgb(252, 238, 238);
+  padding-left: 10px;
+  font-weight: bolder;
+}
+
+#bookForm input:hover {
+  background-color: rgba(113, 9, 101, 0.704);
+  border: 2px solid rgb(218, 209, 218);
+}
+
+.giveScoreInput {
+  text-align: center;
+  width: 30px;
+}
